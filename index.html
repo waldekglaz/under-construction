@@ -12,28 +12,28 @@
 <body>
     <div class="body-container">
         <div class="timer">
-            <div class="timer-container">
+            <div class="timer-container" id="clockdiv">
                 <div class="timer-unit">
                     <ul>
-                        <li class="number">35</li>
+                        <li class="number" id="days">35</li>
                         <li class="string">Days</li>
                     </ul>
                 </div>
                 <div class="timer-unit">
                     <ul>
-                        <li class="number">6</li>
+                        <li class="number hours">6</li>
                         <li class="string">Hours</li>
                     </ul>
                 </div>
                 <div class="timer-unit">
                     <ul>
-                        <li class="number">39</li>
+                        <li class="number minutes">39</li>
                         <li class="string">Minutes</li>
                     </ul>
                 </div>
                 <div class="timer-unit">
                     <ul>
-                        <li class="number">42</li>
+                        <li class="number seconds">42</li>
                         <li class="string">Seconds</li>
                     </ul>
                 </div>
@@ -70,5 +70,7 @@
         </div>
         
     </div>
+    <div id="clockdiv"></div>
+    <script src="script/script.js"></script>
 </body>
 </html>
